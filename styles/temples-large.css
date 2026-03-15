@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
