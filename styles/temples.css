@@ -48,6 +48,9 @@ header{
     align-items: center;
     padding: 15px;
 }
+main h1{
+    grid-column: span 3;
+}
 #menu-button {
     font-size: 24px;
     background: none;
