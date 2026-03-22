@@ -35,9 +35,6 @@ picture img {
 
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.card p {
-  margin: 0.5rem 0;
-}
 .weather-icon {
   display: block;
   margin: 1rem auto;
@@ -58,8 +55,9 @@ footer {
     text-align: center;
 }
 .card p {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem 0;
 }
 
 .card p strong {

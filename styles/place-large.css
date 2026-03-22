@@ -62,7 +62,6 @@
         align-items: center;
     }
     #data-title {
-        display: flex;
-        align-items: left;
+        display: flex-start;
     }
 }
