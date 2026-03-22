@@ -1,0 +1,96 @@
+<!--URL-->
+<!--https://wellintongobbi.github.io/wdd131/temples.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WD131 | Brazil </title>
+
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Wellinton Allan Gobbi | Infos about the place assignment(Brazil).">
+    <meta name="author" content="Wellinton Allan Gobbi">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    
+
+
+    <main>
+        <div class="hero-container">
+            <picture>
+                <!--
+                Desktop image
+                -->
+                <source srcset="images/hero-large.webp" media="(min-width:768px)">
+
+                <!--
+                Mobile image
+                -->
+                <img src="images/hero-small.webp" alt="Montana landscape with mountains">
+            </picture>
+
+        
+            <section class="card data-card">
+                <br>
+                <h2 id="data-title">Data</h2>
+                <p><strong>Area:</strong> 8,515,767 sq km</p>
+                <p><strong>Population:</strong> 203,000,000</p>
+                <p><strong>Capital:</strong> Brasília</p>
+                <p><strong>Languages:</strong> Portuguese</p>
+                <p><strong>Currency:</strong> Brazilian Real</p>
+                <p><strong>Time Zone:</strong> UTC−3</p>
+                <p><strong>Calling Code:</strong> +55</p>
+                <p><strong>Internet TLD:</strong> .br</p>
+            </section>
+
+            <section class="card weather-card">
+                <br>
+                <h2 id="weather-title">Weather</h2>
+
+                <!-- SVG (mobile) -->
+                <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+
+                <p><strong>Temperature:</strong> <span id="temp">28</span> °C</p>
+                <p><strong>Conditions:</strong> Sunny</p>
+                <p><strong>Wind:</strong> <span id="wind">10</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+            </section>
+        </div>
+
+
+   
+
+
+    </main>
+    
+
+
+    <footer>
+
+        <p>
+        © <span id="currentyear"></span> | Wellinton Allan Gobbi | Brazil
+        </p>
+
+        <p>Last Modification: <span id="lastModified"></span></p>
+
+    </footer>
+</body>
+
+
+</html>

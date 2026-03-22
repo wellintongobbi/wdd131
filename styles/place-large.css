@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+        gap: 1rem;
+
+        align-items: flex-start;
+    }
+    .hero-container {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .card {
+        position: absolute;
+        width: 250px;
+        background: rgba(255,255,255,0.8);
+        padding: 1rem;
+    }
+    .card h2 {
+        background: rgba(0, 156, 59, 0.85);
+        color: white;
+        padding: 0.75rem 1rem;
+        margin: -1.5rem -1.5rem 1rem -1.5rem;
+        font-size: 1.2rem;
+        width: fit-content;
+        min-width: 100%;
+        border-bottom: 3px solid var(--secondary);
+    }
+    .data-card {
+        top: 50px;
+        left: 50px;
+    }
+    .weather-card {
+        bottom: 50px;
+        right: 50px;
+        
+    }
+    picture,
+    picture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    picture img {
+        object-fit: cover;
+    }
+    picture img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .weather-icon {
+        display: none;
+    }
+    #weather-title::after {
+        content: " ☀️";
+    }
+    #weather-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #data-title {
+        display: flex;
+        align-items: left;
+    }
+}
