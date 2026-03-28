@@ -166,3 +166,28 @@ function showAll() {
 }
 
 displayTemples(temples);
+
+document.getElementById("old").addEventListener("click", function (e) {
+    e.preventDefault();
+    filterOld();
+});
+
+document.getElementById("new").addEventListener("click", function (e) {
+    e.preventDefault();
+    filterNew();
+});
+
+document.getElementById("large").addEventListener("click", function (e) {
+    e.preventDefault();
+    filterLarge();
+});
+
+document.getElementById("small").addEventListener("click", function (e) {
+    e.preventDefault();
+    filterSmall();
+});
+
+document.getElementById("home").addEventListener("click", function (e) {
+    e.preventDefault();
+    displayTemples(temples);
+});
