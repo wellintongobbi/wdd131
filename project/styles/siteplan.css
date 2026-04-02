@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corpo geral */
+
 body {
   font-family: 'Roboto', sans-serif;
   padding: 20px;
@@ -13,13 +13,13 @@ body {
   color: #333;
 }
 
-/* Títulos */
+
 h1, h2 {
   font-family: 'Poppins', sans-serif;
   color: #d4af37;
 }
 
-/* Seções */
+
 section {
   margin-bottom: 30px;
   padding: 15px;
@@ -27,13 +27,13 @@ section {
   border-radius: 10px;
 }
 
-/* Destaque */
+
 .accent {
   color: #1a1a1a;
   font-weight: bold;
 }
 
-/* Wireframe visual */
+
 .wireframe {
   border: 2px dashed #ccc;
   padding: 10px;
