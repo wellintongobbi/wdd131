@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Review</title>
+<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+
+
+<h1>Product Review</h1>
+
+<form method="get" action="review.html">
+
+<!-- Product -->
+<label for="product">Product Name</label>
+<select id="product" name="product" required>
+    <option value="" disabled selected>Select a Product ...</option>
+</select>
+
+<!-- Rating -->
+<p>Overall Rating</p>
+
+<label><input type="radio" name="rating" value="1" required> ☆</label>
+<label><input type="radio" name="rating" value="2"> ☆☆</label>
+<label><input type="radio" name="rating" value="3"> ☆☆☆</label>
+<label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
+<label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+
+<!-- Date -->
+<label for="date">Date of Installation</label>
+<input type="date" id="date" name="date" required>
+
+<!-- Features -->
+<p>Useful Features</p>
+
+<label><input type="checkbox" name="features" value="Durability"> Durability</label>
+<label><input type="checkbox" name="features" value="Ease"> Ease of Use</label>
+<label><input type="checkbox" name="features" value="Performance"> Performance</label>
+<label><input type="checkbox" name="features" value="Design"> Design</label>
+
+<!-- Review -->
+<label for="review">Written Review</label>
+<textarea id="review" name="review"></textarea>
+
+<!-- Name -->
+<label for="name">Your Name</label>
+<input type="text" id="name" name="name">
+
+<br><br>
+<input type="submit" value="Post Review">
+
+</form>
+
+<footer>
+<p>©2026 | Wellinton Allan Gobbi</p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
